@@ -1,0 +1,36 @@
+body
+{
+    background-color: black;
+    font-family: 'Istok Web', sans-serif;
+}
+
+
+h1
+{
+    color: white;
+    font-size: 72px;
+}
+
+header
+{
+    color: white;
+    font-size: 32px;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding-top: 75px;
+    border-color: white;
+    border-width: 6px;
+}
+
+.Bouton
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: gray;
+    width: 300px;
+    height: 60px;
+    
+}
