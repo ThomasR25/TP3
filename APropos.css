@@ -1,0 +1,70 @@
+body
+{
+    background-image:url(image2/I3.jfif);
+    background-size: cover;
+    font-family: 'Istok Web', sans-serif;
+    
+}
+
+h1
+{
+    color: white;
+    font-size: 72px;
+    text-decoration: underline;
+    text-align: center;
+}
+
+p
+{
+    color: white;
+    font-size: 32px;
+    line-height: 40px;
+}
+
+/*Barre de navigation ci-dessous*/
+header
+{
+    color: white;
+    font-size: 32px;
+    background-color: black;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    
+    
+    border-top: 1px solid;
+    border-bottom: 1px solid;
+    border-color: white;
+
+    padding-bottom: 20px;
+    padding-top: 20px;
+    
+}
+
+
+.Bouton
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: gray;
+    width: 300px;
+    height: 60px;
+    border-radius: 5px 5px 5px 5px;
+    
+    
+}
+
+a:visited
+{
+    color: white;
+    text-decoration: solid;
+}
+
+a:hover
+{
+    color:rgb(0, 0, 0);
+    text-decoration:underline;
+}
+/*Barre de navigation ci-dessus*/
