@@ -67,6 +67,13 @@ a:hover
     color:rgb(0, 0, 0);
     text-decoration:underline;
 }
+
+a
+{
+    color: white;
+    text-decoration: solid;
+}
+
 /*Barre de navigation ci-dessus*/
 
 

@@ -1,7 +1,7 @@
 body
 {
     background-image:url(image2/I3.jfif);
-    background-size: cover;
+    background-size:cover;
     font-family: 'Istok Web', sans-serif;
     
 }
@@ -14,12 +14,87 @@ h1
     text-align: center;
 }
 
-p
+h2
+{
+    text-align: center;
+
+}
+
+.paragraphes
 {
     color: white;
     font-size: 32px;
     line-height: 40px;
+
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items:flex-start;
+
+    
 }
+
+p
+{
+    background-color: rgba(0, 0, 0, 0.5);
+    border: 2px solid;
+    border-color: white;
+    padding: 10px;
+    line-height: 55px;
+
+}
+
+
+.notre-projet
+{
+    display: flex;
+    flex-direction: column;
+    
+
+   
+
+    color: white;
+    font-size: 32px;
+    line-height: 40px;
+
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+     
+
+    
+}
+
+.contenu-site
+{
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.aspects-visuels
+{
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.manel
+{
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.thomas
+{
+    display: flex;
+    flex-direction: column;
+    
+}
+
+
 
 /*Barre de navigation ci-dessous*/
 header
@@ -67,4 +142,11 @@ a:hover
     color:rgb(0, 0, 0);
     text-decoration:underline;
 }
+
+a
+{
+    color: white;
+    text-decoration: solid;
+}
+
 /*Barre de navigation ci-dessus*/
