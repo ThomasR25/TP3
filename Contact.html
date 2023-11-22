@@ -1,11 +1,97 @@
 <!DOCTYPE html>
 <html lang="fr">
 <head>
+    <link rel="stylesheet" href="Contacts.css">
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Contact</title>
+    <title>Contacts</title>
 </head>
 <body>
+
+     <!--Barre de Navigation ci-dessous-->
+   <header>
+    <div class="Bouton Accueil"> <a href="index.html"> Accueil </a> </div>
+    <div class="Bouton Films"> <a href="Films.html"> Films </a> </div>
+    <div class="Bouton Contacts"> <a href="Contact.html"> Contacts </a> </div>
+    <div class="Bouton A-Propos"> <a href="APropos.html"> À Propos </a></div>
+   </header>
+   <!--Barre de Navigation ci-dessus-->
+
+   <h1>Contacts</h1>
+
+   <h2>Informations</h2>
+   
+   <div class="formulaires">
+    <form action="server.html">
+      <div class="prenom">
+        <label for="prenom"> Prénom: </label><br>
+        <input type="text" id="prenom" name="prenom" placeholder="Ex: Marie" required/><br><br>
+      </div> 
+
+      <div class="nom">
+        <label for="nom"> Nom: </label><br>
+        <input type="text" id="nom" name="nom" placeholder="Ex: Tremblay" required/><br><br>
+      </div>
+
+      <div class="email">
+        <label for="email"> Adresse courriel: </label><br>
+        <input type="email" id="email" name="email" required/><br><br>
+      </div>
+
+      <div class="tel">
+        <label for="tel"> Numéro de téléphone: </label><br>
+        <input type="tel" id="tel" name="tel" placeeholder="(___)-___-____"><br><br>
+      </div>
+
+      <div class="sexe">
+        <label for="sexe"> Sexe: </label><br>
+        <input type="radio" name="sexe" value="homme" id="homme"> <label for="homme"> Homme </label>
+        <input type="radio" name="sexe" value="femme" id="femme"> <label for="femme"> Femme </label>
+        <input type="radio" name="sexe" value="autre" id="autre"> <label for="autre"> Autre </label><br>
+      </div>
+
+        <label for="age"> Date de naissance: </label>
+        <input type="date" id="age" name="age" required>
+    </form>
+
+    <h2>Votre demande</h2>
+
+    <form action="server.html">
+        <h3>Questions générales</h3>
+
+        <label for="biographie"> Avez-vous des questions sur la biographie de Christopher Nolan? </label><br>
+        <input type="radio" name="biographie" value="oui" id="oui"> <label for="oui"> Oui </label>
+        <input type="radio" name="biographie" value="non" id="non"> <label for="non"> Non </label><br>
+
+        <label for="feedback"> Si oui, précisez: </label><br>
+        <textarea name="feedback" id="feedback" cols="30" rows=""></textarea>
+
+        <label for="défis"> Avez-vous des questions sur les principaux défis auxquels Christopher Nolan a été <br>confronté tout au long de sa carrière de réalisateur? </label><br>
+        <input type="radio" name="défis" value="oui" id="oui"> <label for="oui"> Oui </label>
+        <input type="radio" name="défis" value="non" id="non"> <label for="non"> Non </label><br>
+
+        <label for="feedback"> Si oui, précisez: </label><br>
+        <textarea name="feedback" id="feedback" cols="30" rows=""></textarea>
+
+        <label for="sujets"> Aimeriez-vous savoir comment Christopher Nolan choisit les sujets de ses films? </label><br>
+        <input type="radio" name="sujets" value="oui" id="oui"> <label for="oui"> Oui </label>
+        <input type="radio" name="sujets" value="non" id="non"> <label for="non"> Non </label><br>
+
+        <label for="feedback"> Si oui, précisez: </label><br>
+        <textarea name="feedback" id="feedback" cols="30" rows=""></textarea>
+
+        <label for="acteurs"> Avez-vous des questions sur les acteurs avec lesquels Christopher Nolan collabore <br> fréquemment dans ses films? </label><br>
+        <input type="radio" name="acteurs" value="oui" id="oui"> <label for="oui"> Oui </label>
+        <input type="radio" name="acteurs" value="non" id="non"> <label for="non"> Non </label><br>
+
+        <label for="feedback"> Si oui, précisez: </label><br>
+        <textarea name="feedback" id="feedback" cols="30" rows=""></textarea>
+    </form>
+   </div>
+
+
+
+
     
 </body>
 </html>

@@ -1,0 +1,117 @@
+body
+{
+    background-image:url(image2/I3.webp);
+    background-size:cover;
+    font-family: 'Istok Web', sans-serif;
+    color: white; 
+}
+
+h1
+{
+    text-decoration: underline;
+    text-align: center;
+    font-size: 72px;
+}
+
+h2
+{
+    color: white;
+    font-size: 60px;
+    text-align: center;
+}
+
+form
+{
+    font-size: 34px;
+    font-family: 'Istok Web', sans-serif;
+    background-color: rgba(0, 0, 0, 0.8);
+    border: 2px solid;
+    border-color: white;
+    border-radius: 10px 10px 10px 10px;
+    padding: 20px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content:space-evenly;
+    flex-wrap: wrap;
+    width:fit-content;
+}  
+
+
+
+input
+{
+    padding: 5px;
+
+}
+
+.formulaires
+{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+label
+{
+    padding-top: 60px;
+
+}
+
+
+
+/*Barre de navigation ci-dessous*/
+header
+{
+    color: white;
+    font-size: 32px;
+    background-color: black;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    
+    
+    border-top: 1px solid;
+    border-bottom: 1px solid;
+    border-color: white;
+
+    padding-bottom: 20px;
+    padding-top: 20px;
+    
+}
+
+
+.Bouton
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: gray;
+    width: 300px;
+    height: 60px;
+    border-radius: 5px 5px 5px 5px;
+    
+    
+}
+
+a:visited
+{
+    color: white;
+    text-decoration: solid;
+}
+
+a:hover
+{
+    color:rgb(0, 0, 0);
+    text-decoration:underline;
+}
+
+a
+{
+    color: white;
+    text-decoration: solid;
+}
+
+/*Barre de navigation ci-dessus*/
