@@ -1,3 +1,58 @@
+/*Barre de navigation ci-dessous*/
+header
+{
+    color: white;
+    font-size: 32px;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    
+    
+    border-top: 1px solid;
+    border-bottom: 1px solid;
+    border-color: white;
+
+    padding-bottom: 20px;
+    padding-top: 20px;
+    
+}
+
+
+.Bouton
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: gray;
+    width: 300px;
+    height: 60px;
+    border-radius: 5px 5px 5px 5px;
+    
+    
+}
+
+a:visited
+{
+    color: white;
+    text-decoration: solid;
+}
+
+a:hover
+{
+    color:rgb(0, 0, 0);
+    text-decoration:underline;
+}
+
+a
+{
+    color: white;
+    text-decoration: solid;
+}
+
+/*Barre de navigation ci-dessus*/
+
+
 body{
     font-family: 'Istok Web', sans-serif;
     background-color: black;
@@ -12,7 +67,8 @@ img{
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
-    
+    top: 200px;
+    position:absolute;
 }
 
 .affiche1{
