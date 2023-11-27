@@ -1,71 +1,5 @@
 
 
-/*-------Barre de navigation------*/
-
-header
-{
-    background-color: black;
-    color: white;
-    font-size: 32px;
-
-    display: flex;
-    flex-direction: row;
-    justify-content: space-around;
-    border-bottom: 2px solid;
-
-    position: fixed;
-    z-index: 2;
-    width: 100%;
-    top: 0;
-    left: 0;
-
-    padding-bottom: 20px;
-    padding-top: 20px;
- 
-}
-
-.Bouton
-{
-    display: flex;
-    margin: 20px;
-    justify-content: center;
-    align-items: center;
-    background-color: gray;
-    width: 300px;
-    height: 60px;
-    border-radius: 5px 5px 5px 5px;    
-    
-}
-
-.Films{
-    border: 1px;
-    border: solid;
-    border-color: white;
-    background-color: rgb(71, 71, 71)
-}
-
-a:visited
-{
-    color: white;
-    text-decoration: solid;  
-    
-}
-
-a:hover
-{
-    color:rgb(0, 0, 0);
-    text-decoration:underline;
-
-}
-
-.element
-{
-    color: white;
-    text-decoration: solid;
-    position: fixed;
-    z-index: 2;
-
-}
 
 /*-----------Fond, Affiche-------------*/
 
@@ -208,11 +142,91 @@ td {
   
 
 /*-------------son et Bade annonce-----------*/
-  
+
+.son-texte{
+    position: absolute;
+    top: 405px;
+    left: 400px;
+    width: 150px;
+}
+audio{
+    position: absolute;
+    top: 405px;
+    left: 550px;
+    width: 260px;
+}
   
 iframe{
     top: 500px;
     left: 100px;
     position: absolute;
     border: none;
+}
+
+
+/*-------Barre de navigation------*/
+
+header
+{
+    background-color: black;
+    color: white;
+    font-size: 32px;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    border-bottom: 2px solid;
+
+    position: fixed;
+    z-index: 2;
+    width: 100%;
+    top: 0;
+    left: 0;
+
+    padding-bottom: 20px;
+    padding-top: 20px;
+ 
+}
+
+.Bouton
+{
+    display: flex;
+    margin: 20px;
+    justify-content: center;
+    align-items: center;
+    background-color: gray;
+    width: 300px;
+    height: 60px;
+    border-radius: 5px 5px 5px 5px;    
+    
+}
+
+.Films{
+    border: 1px;
+    border: solid;
+    border-color: white;
+    background-color: rgb(71, 71, 71)
+}
+
+a:visited
+{
+    color: white;
+    text-decoration: solid;  
+    
+}
+
+a:hover
+{
+    color:rgb(0, 0, 0);
+    text-decoration:underline;
+
+}
+
+.element
+{
+    color: white;
+    text-decoration: solid;
+    position: fixed;
+    z-index: 2;
+
 }
