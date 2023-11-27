@@ -137,6 +137,13 @@ header
     
 }
 
+.A-Propos{
+    border: 1px;
+    border: solid;
+    border-color: white;
+    background-color: rgb(71, 71, 71)
+}
+
 a:visited
 {
     color: white;

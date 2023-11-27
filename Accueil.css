@@ -51,10 +51,17 @@ header
     background-color: gray;
     width: 300px;
     height: 60px;
-    border-radius: 5px 5px 5px 5px;
-    
+    border-radius: 5px 5px 5px 5px;  
     
 }
+
+.Accueil{
+    border: 1px;
+    border: solid;
+    border-color: white;
+    background-color: rgb(71, 71, 71)
+}
+
 
 a:visited
 {
