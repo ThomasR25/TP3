@@ -1,0 +1,122 @@
+body{
+    font-family: 'Istok Web', sans-serif;
+    color: white;
+}
+ 
+.fond {
+    top: 0;    
+    width: 500px;
+    height: 479px;
+    left: 321px;
+    position: absolute;
+    background-color: black;
+}
+
+.titre {
+    left: 430px;
+    position: absolute;
+} 
+
+h1{
+    font-size: 40px;
+    font-weight: lighter;
+    color: white;  
+}
+
+.affiche {
+    top: 0;
+    left: 0;
+    position: absolute;
+}
+  
+.synopsis {
+    top: 160px;
+    left: 410px;
+    width: 360px;
+    position: absolute;
+
+    font-size: 18px;
+    color: white;
+}
+
+
+/*        tableau            */
+
+
+table{
+    top: 80px;
+    left: 380px;
+    width: 420px;
+    height: 90px;
+    position: fixed;
+}
+
+th{
+    top: 20px;
+    width: 110px;
+    height: 63px;
+    position: absolute;
+
+    font-size: 14px;
+    color: #ffffffa3;    
+}
+
+  
+.Duree {
+    position: absolute;
+    left: 20px;
+    width: 110px;
+}
+  
+.Date {
+    position: absolute;
+    left: 160px;
+    width: 110px;
+}
+   
+.Genre {
+    position: absolute;
+    left: 294px;
+    width: 110px;
+}
+
+ 
+
+/*             td             */
+
+
+
+td {
+    height: 46px;
+    width: 420px;
+    position: fixed;
+    text-align: center;
+}
+
+.duree{
+    width: 150px;
+    position: relative;
+}
+
+.date {
+    left: 160px;
+    position: absolute;
+    width: 110px;
+}
+  
+  
+.genre {
+    left: 295px;
+    position: absolute;
+}
+  
+  
+
+/*            son et annonce              */
+  
+  
+iframe{
+    top: 500px;
+    left: 100px;
+    position: absolute;
+}
