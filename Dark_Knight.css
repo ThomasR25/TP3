@@ -1,8 +1,75 @@
-body{
-    font-family: 'Istok Web', sans-serif;
+
+
+/*-------Barre de navigation------*/
+
+header
+{
+    background-color: black;
     color: white;
-}
+    font-size: 32px;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    border-bottom: 2px solid;
+
+    position: fixed;
+    z-index: 2;
+    width: 100%;
+    top: 0;
+    left: 0;
+
+    padding-bottom: 20px;
+    padding-top: 20px;
  
+}
+
+.Bouton
+{
+    display: flex;
+    margin: 20px;
+    justify-content: center;
+    align-items: center;
+    background-color: gray;
+    width: 300px;
+    height: 60px;
+    border-radius: 5px 5px 5px 5px;    
+    
+}
+
+a:visited
+{
+    color: white;
+    text-decoration: solid;  
+    
+}
+
+a:hover
+{
+    color:rgb(0, 0, 0);
+    text-decoration:underline;
+
+}
+
+.element
+{
+    color: white;
+    text-decoration: solid;
+    position: fixed;
+    z-index: 2;
+
+}
+
+/*-----------Fond, Affiche-------------*/
+
+
+
+.affiche {
+    top: 0;
+    left: 0;
+    position: absolute;
+}
+
 .fond {
     top: 0;    
     width: 500px;
@@ -10,11 +77,33 @@ body{
     left: 321px;
     position: absolute;
     background-color: black;
+    border-color: white;
+    border: 6px, solid;
 }
 
+
+/*--------------Body-------------*/
+
+
+.Contenu{
+    top: 200px;
+    left: 200px;
+    position: fixed;
+}
+
+body{
+    background-color: rgb(65, 65, 65);
+    font-family: 'Istok Web', sans-serif;
+    color: white;
+}
+ 
+/*-------------Texte-------------*/
+
 .titre {
-    left: 430px;
+    top:13px;
+    left: 433px;
     position: absolute;
+    width: 319px;
 } 
 
 h1{
@@ -23,11 +112,7 @@ h1{
     color: white;  
 }
 
-.affiche {
-    top: 0;
-    left: 0;
-    position: absolute;
-}
+
   
 .synopsis {
     top: 160px;
@@ -40,16 +125,19 @@ h1{
 }
 
 
-/*        tableau            */
+/*-----------tableau-------------*/
 
 
 table{
-    top: 80px;
-    left: 380px;
+    top: 280px;
+    left: 580px;
     width: 420px;
     height: 90px;
     position: fixed;
 }
+
+
+/*     th     */
 
 th{
     top: 20px;
@@ -82,7 +170,7 @@ th{
 
  
 
-/*             td             */
+/*     td     */
 
 
 
@@ -112,11 +200,12 @@ td {
   
   
 
-/*            son et annonce              */
+/*-------------son et Bade annonce-----------*/
   
   
 iframe{
     top: 500px;
     left: 100px;
     position: absolute;
+    border: none;
 }

@@ -37,7 +37,10 @@ form
     width:fit-content;
 }  
 
-
+.Contenu{
+    top: 200px;
+    position: relative;
+}
 
 input
 {
@@ -64,54 +67,60 @@ label
 /*Barre de navigation ci-dessous*/
 header
 {
+    background-color: black;
     color: white;
     font-size: 32px;
-    background-color: black;
 
     display: flex;
     flex-direction: row;
     justify-content: space-around;
-    
-    
-    border-top: 1px solid;
-    border-bottom: 1px solid;
-    border-color: white;
+    border-bottom: 2px solid;
+
+    position: fixed;
+    z-index: 2;
+    width: 100%;
+    top: 0;
+    left: 0;
 
     padding-bottom: 20px;
     padding-top: 20px;
-    
+ 
 }
-
 
 .Bouton
 {
     display: flex;
+    margin: 20px;
     justify-content: center;
     align-items: center;
     background-color: gray;
     width: 300px;
     height: 60px;
-    border-radius: 5px 5px 5px 5px;
-    
+    border-radius: 5px 5px 5px 5px;    
     
 }
 
 a:visited
 {
     color: white;
-    text-decoration: solid;
+    text-decoration: solid;  
+    
 }
 
 a:hover
 {
     color:rgb(0, 0, 0);
     text-decoration:underline;
+
 }
 
-a
+.element
 {
     color: white;
     text-decoration: solid;
+    position: fixed;
+    z-index: 2;
+
 }
 
 /*Barre de navigation ci-dessus*/
